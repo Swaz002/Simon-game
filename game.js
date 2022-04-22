@@ -22,6 +22,8 @@ $("#power").click(function() {
     $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
+
+    $(".start").text("restart")
   }
   else if (started){
     startOver();
@@ -103,4 +105,5 @@ function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
+  $(".start").text("restart")
 }
