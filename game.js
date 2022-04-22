@@ -23,6 +23,9 @@ $("#power").click(function() {
     nextSequence();
     started = true;
   }
+  else if (started){
+    startOver();
+  }
 });
 
 $(".btn").click(function() {
