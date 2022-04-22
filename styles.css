@@ -5,6 +5,10 @@ body {
   color: #FEF2BF;
 }
 
+#power {
+  font-size: 4rem;
+}
+
 #level-title {
   font-size: 3rem;
   margin:  5%;
@@ -55,4 +59,26 @@ body {
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
+}
+
+.powerbtn {
+  background: #2b4454;
+  background-image: -webkit-linear-gradient(top, #2b4454, #2b5670);
+  background-image: -moz-linear-gradient(top, #2b4454, #2b5670);
+  background-image: -ms-linear-gradient(top, #2b4454, #2b5670);
+  background-image: -o-linear-gradient(top, #2b4454, #2b5670);
+  background-image: linear-gradient(to bottom, #2b4454, #2b5670);
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  font-family: Arial;
+  color: #FEF2BF;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.powerbtn:hover {
+  background: #011F3F;
+  text-decoration: none;
 }
